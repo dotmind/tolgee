@@ -7,7 +7,7 @@ import LanguageSelect from '../src/components/LanguageSelect';
 
 import styles from '../styles/Home.module.css';
 
-const Home: NextPage = () => {
+const Contact: NextPage = () => {
   const t = useTranslate();
 
   return (
@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1>{t('home.title')}</h1>
+        <h1>{t('contact.title')}</h1>
       </main>
 
       <div>
@@ -42,4 +42,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home
+export default Contact
